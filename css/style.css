@@ -80,6 +80,12 @@ body{
     text-decoration: none;
     transition: all 0.2s;
     position: relative;
+ 
+}
+
+.btn-animated{
+    animation: moveInBottom 1s ease-out 0.75s;
+    animation-fill-mode: backwards;
 }
 
 .btn:hover{
@@ -149,6 +155,17 @@ body{
     }
     80%{
         transform: translateX(-10px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(30px);
     }
     100%{
         opacity: 1;
