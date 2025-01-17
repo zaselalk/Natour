@@ -78,6 +78,7 @@ body{
     text-transform: uppercase;
     border-radius: 100px;
     text-decoration: none;
+    transition: all 0.2s;
 }
 
 .btn:hover{
