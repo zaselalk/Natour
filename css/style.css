@@ -69,6 +69,34 @@ body{
     animation: moveInRight 1s ease-out;
 }
 
+.btn:link,
+.btn:visited{
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #7ed56f;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active{
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #777;
+}
+
 /* animations */
 @keyframes moveInLeft{
     0%{
